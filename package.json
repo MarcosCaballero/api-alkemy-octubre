@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "start": "node .",
+    "devStart": "nodemon index.js",
+    "build": "rm -rf public && mkdir public && echo 'Custom Build' > ./public/index.html"
+  },
+  "name": "alkemy-wallet",
+  "description": "This directory is a brief example of using a Custom Build script that can be deployed with Vercel and zero configuration.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "*",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+  }
+}
